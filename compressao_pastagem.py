@@ -1,3 +1,5 @@
+# streamlit run compressao_pastagem.py
+
 import streamlit as st
 import numpy as np
 import plotly.graph_objects as go
@@ -13,10 +15,10 @@ Modelo:
 Os coeficientes podem ser ajustados manualmente. Valores iniciais foram calibrados com base na literatura
 """)
 
-st.markdown("""Biomassa:** Calvão & Palmeirim (2004),
+st.markdown("""**Biomassa**: Calvão & Palmeirim (2004),
             Mapping Mediterranean scrub with satellite imagery: biomass estimation and spectral behaviour
             (https://doi.org/10.1080/01431160310001654978)""")
-st.markdown("""Proteína Bruta:** Garroutte et al. (2016), 
+st.markdown("""**Proteína Bruta**: Garroutte et al. (2016), 
             Using NDVI and EVI to Map Spatiotemporal Variation in the Biomass and Quality of Forage for Migratory Elk in the Greater Yellowstone Ecosystem,
             (https://www.mdpi.com/2072-4292/8/5/404)""")
 
